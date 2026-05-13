@@ -126,7 +126,7 @@ with col4:
 # -----------------------------------
 # AI COUNTRY BRIEF
 # -----------------------------------
-client = OpenAI(api_key="OPENAI_API_KEY")
+client client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 st.header("AI Country Risk Brief")
 
